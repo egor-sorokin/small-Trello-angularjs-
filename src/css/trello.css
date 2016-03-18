@@ -1,0 +1,166 @@
+body {
+    margin: 0;
+    padding: 0;
+
+    font-size: 16px;
+    background-color: #FFFFFF;
+    color: #757575;
+}
+
+.header {
+    overflow: hidden;
+
+    margin: 0;
+    padding: .2em;
+
+    background-color: #3F51B5;
+
+    color: #fff;
+}
+
+.header__title {
+    margin: 0;
+    padding: 0;
+
+    font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+    font-size: 2em;
+    color: #fff;
+    font-weight: bold;
+    text-indent: 0.5em;
+    text-align: center;
+}
+
+.list {
+    position: relative;
+
+    margin: 20px;
+    padding: 20px;
+}
+
+.list__item {
+    display: inline-block;
+
+    position: relative;
+    margin-right: 20px;
+    padding: 10px;
+
+    width: 200px;
+    background-color: #efefef;
+
+    border-radius: 4px;
+
+    vertical-align: top;
+}
+
+.list__item-title {
+    margin-top: 10px;
+    margin-bottom: 15px;
+    margin-left: 5px;
+}
+
+.list__item-card {
+    position: relative;
+
+    margin: 20px 0;
+    padding: 20px;
+
+    background-color: #fff;
+
+    border-radius: 4px;
+}
+
+.list__item-card:hover {
+    background-color: #dbdbdb;
+}
+
+.list__item-edit-input {
+    width: 90%;
+
+    background: none;
+    border: none;
+
+    color: inherit;
+    font-size: 14px;
+}
+
+.list__item-new-card {
+    width: 100%;
+}
+
+.list__item-new-card-input:focus {
+    background-color: #fff;
+}
+
+
+.list__item-new-card-input {
+    width: 95%;
+    padding-left: 5px;
+
+    background: none;
+    border: none;
+
+    font-size: 14px;
+}
+
+.list__item-new-list-input {
+    width: 90%;
+
+    background: none;
+    border: none;
+
+    font-size: 14px;
+}
+
+.list__item-remove-list {
+    position: absolute;
+    top: -10px;
+    right: -10px;
+}
+
+.list__item-remove-card {
+    position: absolute;
+    top: 3px;
+    right: 3px;
+}
+
+.list__item-edit-card {
+    display: block;
+    position: absolute;
+    top: 3px;
+    right: 20px;
+}
+
+.list h1 {
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.no-display {
+    display: none;
+}
+
+.hand {
+    cursor: pointer;
+}
+
+input.search {
+    width: 200px;
+    margin-top: 4px;
+    margin-bottom: 0;
+    margin-right: 10px;
+}
+
+.select-list {
+    margin: 10px 0 0 0;
+}
+
+.icon-size-16 {
+    font-size: 16px;
+}
+.icon-size-24 {
+    font-size: 24px;
+}
+
+[ng\:cloak], [ng-cloak], .ng-cloak {
+    display: none !important;
+}
