@@ -56,6 +56,9 @@ body {
     margin-top: 10px;
     margin-bottom: 15px;
     margin-left: 5px;
+
+    font-size: 16px;
+    font-weight: 700;
 }
 
 .list__item-card {
@@ -83,6 +86,10 @@ body {
     font-size: 14px;
 }
 
+.list__item-select-list {
+    margin: 10px 0 0 0;
+}
+
 .list__item-new-card {
     width: 100%;
 }
@@ -90,7 +97,6 @@ body {
 .list__item-new-card-input:focus {
     background-color: #fff;
 }
-
 
 .list__item-new-card-input {
     width: 95%;
@@ -130,11 +136,6 @@ body {
     right: 20px;
 }
 
-.list h1 {
-    font-size: 16px;
-    font-weight: 700;
-}
-
 .no-display {
     display: none;
 }
@@ -148,10 +149,6 @@ input.search {
     margin-top: 4px;
     margin-bottom: 0;
     margin-right: 10px;
-}
-
-.select-list {
-    margin: 10px 0 0 0;
 }
 
 .icon-size-16 {

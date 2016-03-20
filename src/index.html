@@ -39,15 +39,14 @@
                 </div>
 
                 <div ng-if="cardCtrl.isEditing">
-                    <form ng-submit="cardCtrl.updateCard()"
-                          class="block">
+                    <form ng-submit="cardCtrl.updateCard()">
                         <input type="text"
                                class="list__item-edit-input"
                                close-editing
                                focus-input
                                is-editing="cardCtrl.isEditing"
                                ng-model="cardCtrl.editingCard.description">
-                        <select class="select-list"
+                        <select class="list__item-select-list"
                                 ng-model="cardCtrl.editingCard.list_id"
                                 ng-change="cardCtrl.updateCard()"
                                 ng-options="list.id as list.listName for list in listsCtrl.lists">
